@@ -30,9 +30,10 @@
                     Modules
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Modules 1<span class="sr-only">(current)</span></a>
-                    <a class="dropdown-item" href="#">Modules 2</a>
-                    <a class="dropdown-item" href="#">Modules 3</a>
+                    <a class="dropdown-item" href="modules1.php">Modules 1<span class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="modules2.php">Modules 2</a>
+                    <a class="dropdown-item" href="modules3.php">Modules 3</a>
+                    <a class="dropdown-item" href="modules4.php">Modules 4</a>
                   </div>
                 </li>
               </ul>
@@ -46,6 +47,29 @@
         Your task is to find these bug(s) and fix them. Once you have fixed all the bugs, running the file will output the final answer.
         Don't forget to put your final answer into flag{XXXXXX} format before submitting. Good luck!
 
+        <br><br><br><br><br>
+        <a href="debug1.py" download>Python file 1</a> (1 Marks) <br><br>
+        <a href="debug2.py" download>Python file 2</a> (1 Marks) <br><br>
+        <a href="debug3.py" download>Python file 3</a> (2 Marks) <br><br>
+
+
+        <p>Without running the code!! What is the result of this program? (2 Marks)</p>
+        <img src="debug1.png" alt="image2">
+
+        <br><br><br><br>
+
+
+        <!-- <p>Without running the code!! What is the result of this program? (3 Marks)</p>
+
+        <img src="debug2.png" alt="image1"> -->
+
+        
+
+
+
+
         </div>
+
+        
 
 </html>

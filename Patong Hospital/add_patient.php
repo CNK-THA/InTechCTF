@@ -21,7 +21,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">Home</a>
+        <a class="nav-link" href="home.php" style="color:white;">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -37,7 +37,7 @@
 </nav>
 
 <div class="container" style="margin-top:1cm;">
-    <form id="login-form" class="form" action="home.php" method="post">
+    <form id="login-form" class="form" method="post">
         <div class="row">
             <div class="col">
             <div class="form-group">
@@ -51,7 +51,7 @@
             </div>
             <div class="form-group">
                 <label for="date" class="text-info">Date admitted:</label><br>
-                <input class="form-control" type="date" value="2021-04-19" id="date">
+                <input class="form-control" type="date" value="2021-04-19" name = 'date' id="date">
             </div>
 
             </div>
@@ -73,7 +73,7 @@
             </div>
         </div>
 
-        <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+        <input type="submit" name="submit-patient" class="btn btn-info btn-md" value="submit">
                             
         
     </form>
@@ -86,3 +86,5 @@
 </body>
 
 </html>
+
+<?php include 'add_patient_command.php';?>

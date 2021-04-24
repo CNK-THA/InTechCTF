@@ -20,7 +20,7 @@
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="home.php" method="post">
+                        <form id="login-form" class="form" method="post">
                             <h3 class="text-center text-info">Patong Hospital - Online Patient System</h3>
                             <br>
                             <div class="form-group">
@@ -53,3 +53,14 @@
 </body>
 
 </html>
+
+<?php 
+
+if(isset($_POST['submit'])) { // THis is only for demonstration!!!!!!
+    if($_POST['username'] == "admin" and $_POST['password'] == "admin") {
+        echo "<script>location = 'home.php';</script>";
+    } else {
+        echo "<script>alert('Username or password incorrect');</script>";
+    }
+}
+?>

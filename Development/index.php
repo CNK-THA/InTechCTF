@@ -30,16 +30,17 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Modules
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Modules 1</a>
-                    <a class="dropdown-item" href="#">Modules 2</a>
-                    <a class="dropdown-item" href="#">Modules 3</a>
+                    <a class="dropdown-item" href="modules1.php">Modules 1</a>
+                    <a class="dropdown-item" href="modules2.php">Modules 2</a>
+                    <a class="dropdown-item" href="modules3.php">Modules 3</a>
+                    <a class="dropdown-item" href="modules4.php">Modules 4</a>
                   </div>
                 </li>
               </ul>

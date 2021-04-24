@@ -30,9 +30,10 @@
                     Modules
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Modules 1<span class="sr-only">(current)</span></a>
-                    <a class="dropdown-item" href="#">Modules 2</a>
-                    <a class="dropdown-item" href="#">Modules 3</a>
+                    <a class="dropdown-item" href="modules1.php">Modules 1<span class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="modules2.php">Modules 2</a>
+                    <a class="dropdown-item" href="modules3.php">Modules 3</a>
+                    <a class="dropdown-item" href="modules4.php">Modules 4</a>
                   </div>
                 </li>
               </ul>
@@ -46,6 +47,23 @@
         Your task is to decrypt them using <strong>Caesar Cipher</strong> and the alphabets has been shifted <strong> 9 characters forward </strong>.
         If you successfully decrypt these message, it will give you the final answer. Don't forget to put your
         final answer in the format flag{XXXX} before submitting!! Good Luck!!
+
+        <br><br><br><br><br>
+        <a href="caesarEncrypted.txt" download>caesarEncrypted</a> (5 Marks) <br><br>
+
+
+        <br>
+        Furthermore, the following file contains an encrypted messages. Your task is to decrypt the file using
+        the given key. Once you have successfully decrypt it, you need to search for your flag{} answer hidden
+        in the plaintext.
+        If you successfully decrypt these message, it will give you the final answer. Don't forget to put your
+        final answer in the format flag{XXXX} before submitting!! Good Luck!!
+
+        <br><br><br><br><br>
+        <a href="caesarEncrypted.txt" download>encryptedText</a> (10 Marks) <br><br>
+        <a href="caesarEncrypted.txt" download>key</a><br><br>
+
+
         </div>
 
 </html>
